@@ -21,13 +21,12 @@
         <li>compsci@compsci-VBox:~$ git config --global user.name "John Smith"</li>
         <li>compsci@compsci-VBox:~$ git config --global user.email "Someone@Example.com"</li>
         <li>compsci@compsci-VBox:~$ git help config lists commands</li>
-        <li>compsci@compsci-VBox:/var/www/html/thomasp$ git init</li>
-        <li>compsci@compsci-VBox:/var/www/html/thomasp$ ll</li>
-        <li>drwxr-xr-x 7 compsci compsci 4096 May 21 09:04 .git/       result</li>
-        <li>compsci@compsci-VBox:/var/www/html/thomasp$ git status</li>
-        <li>compsci@compsci-VBox:/var/www/html/thomasp$ touch .gitignore</li>
-        <li>compsci@compsci-VBox:/var/www/html/thomasp$ ll</li>
-        <li>-rw-r--r-- 1 compsci compsci 0 May 21 09:10 .gitignore       result</li>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git init</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ ll</pre>
+        <li>drwxr-xr-x 7 compsci compsci 4096 May 21 09:04 .git/ result</li>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git status</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ touch .gitignore</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ ll</pre>
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ touch .gitignore</pre>
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ gedit .gitignore</pre>
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git status</pre>
@@ -35,9 +34,18 @@
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git add -A</pre>
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git reset</pre>
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git commit -m  &quot;Initial commit&quot;</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git log</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ mkdir GitHubClones</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ cd GitHubClones/</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs/GitHubClones</b></font>$ git clone https://github.com/CHS-McClendon/VCS_mrm.git .</pre>
+        <h3>Make a change, for more git practice</h3>
+        <h5>ignore GitHubClones</h5>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git diff</pre>
     </ol>
 
-    <p>to remove git --- <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp</b></font>$ rm -rf .git</pre></p>
+    <p>to remove git ---
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp</b></font>$ rm -rf .git</pre>
+    </p>
     <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ ll</pre>
 </body>
 
