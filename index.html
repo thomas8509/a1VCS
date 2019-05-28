@@ -14,16 +14,15 @@
     <h1>GitHub - VCS</h1>
     <h2>Thomas Pengelly | May 2019</h2>
     <h3>Steps</h3>
-    <ol>
-        <li>Make a GitHub account</li>
-        <li>compsci@compsci-VBox:~$ sudo apt install git</li>
-        <li>compsci@compsci-VBox:~$ git --version</li>
-        <li>compsci@compsci-VBox:~$ git config --global user.name "John Smith"</li>
-        <li>compsci@compsci-VBox:~$ git config --global user.email "Someone@Example.com"</li>
-        <li>compsci@compsci-VBox:~$ git help config lists commands</li>
+        <h5>Make a GitHub account</h5>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ sudo apt install git</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git --version</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.name &quot;John Smith&quot;</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.email &quot;Someone@Example.com&quot;</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git help config</pre> <h5>lists commands</h5>
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git init</pre>
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ ll</pre>
-        <li>drwxr-xr-x 7 compsci compsci 4096 May 21 09:04 .git/ result</li>
+        <h5>drwxr-xr-x 7 compsci compsci 4096 May 21 09:04 .git/ result</h5>
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git status</pre>
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ touch .gitignore</pre>
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ ll</pre>
@@ -41,7 +40,12 @@
         <h3>Make a change, for more git practice</h3>
         <h5>ignore GitHubClones</h5>
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git diff</pre>
-    </ol>
+        <h5>Do this before a push</h5>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git remote add origin https://github.com/thomas8509/a1VCS.git</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git pull origin master --allow-unrelated-histories</pre>
+
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git push origin master</pre>
+
 
     <p>to remove git ---
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp</b></font>$ rm -rf .git</pre>
