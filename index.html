@@ -14,43 +14,52 @@
     <h1>GitHub - VCS</h1>
     <h2>Thomas Pengelly | May 2019</h2>
     <h3>Steps</h3>
-        <h5>Make a GitHub account</h5>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ sudo apt install git</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git --version</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.name &quot;John Smith&quot;</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.email &quot;Someone@Example.com&quot;</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git help config</pre> <h5>lists commands</h5>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git init</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ ll</pre>
-        <h5>drwxr-xr-x 7 compsci compsci 4096 May 21 09:04 .git/ result</h5>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git status</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ touch .gitignore</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ ll</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ touch .gitignore</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ gedit .gitignore</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git status</pre>
-        <h5>Continue on Thursday 23 May</h5>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git add -A</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git reset</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git commit -m  &quot;Initial commit&quot;</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git log</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ mkdir GitHubClones</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ cd GitHubClones/</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs/GitHubClones</b></font>$ git clone https://github.com/CHS-McClendon/VCS_mrm.git .</pre>
-        <h3>Make a change, for more git practice</h3>
-        <h5>ignore GitHubClones</h5>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git diff</pre>
-        <h5>Do this before a push</h5>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git remote add origin https://github.com/thomas8509/a1VCS.git</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git pull origin master --allow-unrelated-histories</pre>
+    <h5>Make a GitHub account</h5>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ sudo apt install git</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git --version</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.name &quot;John Smith&quot;</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.email &quot;Someone@Example.com&quot;</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git help config</pre>
+    <h5>lists commands</h5>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git init</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ ll</pre>
+    <h5>drwxr-xr-x 7 compsci compsci 4096 May 21 09:04 .git/ result</h5>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git status</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ touch .gitignore</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ ll</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ touch .gitignore</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ gedit .gitignore</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git status</pre>
+    <h5>Continue on Thursday 23 May</h5>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git add -A</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git reset</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git commit -m  &quot;Initial commit&quot;</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git log</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ mkdir GitHubClones</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ cd GitHubClones/</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs/GitHubClones</b></font>$ git clone https://github.com/CHS-McClendon/VCS_mrm.git .</pre>
+    <h3>Make a change, for more git practice</h3>
+    <h5>ignore GitHubClones</h5>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git diff</pre>
+    <h5>Do this before a push</h5>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git remote add origin https://github.com/thomas8509/a1VCS.git</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git pull origin master --allow-unrelated-histories</pre>
 
-        <h5>Push from git to GitHub</h5>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git status</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git add -A</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git commit -m &quot;Practice period A1&quot;</pre>
-        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git push origin master</pre>
+    <h5>Push from git to GitHub</h5>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git diff</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git status</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git add -A</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git commit -m &quot;Practice period A1&quot;</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git pull origin master --allow-unrelated-histories</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git push origin master</pre>
 
-<h2>Today is our last regular class of 2018-2019</h2>
+    <h5>Changing Branches</h5>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git branch A1_001_practice</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git branch</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git checkout A1_001_practice</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp/projects/vcs</b></font>$ git branch</pre>
+
+    <h2>Today is our last regular class of 2018-2019</h2>
 
     <p>to remove git ---
         <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/thomasp</b></font>$ rm -rf .git</pre>
